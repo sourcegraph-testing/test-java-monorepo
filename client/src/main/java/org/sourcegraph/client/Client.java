@@ -7,7 +7,7 @@ public class Client {
     private final SourcegraphService service;
 
     public Client() {
-        this.service = new SourcegraphService();
+        this.service = new SourcegraphLookup();
     }
 
     public boolean isAuthorized() {
