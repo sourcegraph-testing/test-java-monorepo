@@ -1,13 +1,13 @@
 package org.sourcegraph.auth;
 
 import org.sourcegraph.Record;
-import org.sourcegraph.SourcegraphService;
+import org.sourcegraph.SourcegraphLookup;
 
 public class Auth {
-    private final SourcegraphService service;
+    private final SourcegraphLookup service;
 
     public Auth() {
-        this.service = new SourcegraphService();
+        this.service = new SourcegraphLookup();
     }
 
     public boolean isAuthorized() {
