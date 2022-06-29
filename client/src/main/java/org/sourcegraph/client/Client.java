@@ -1,13 +1,13 @@
 package org.sourcegraph.client;
 
 import org.sourcegraph.Record;
-import org.sourcegraph.SourcegraphService;
+import org.sourcegraph.SourcegraphLookup;
 
 public class Client {
-    private final SourcegraphService service;
+    private final SourcegraphLookup service;
 
     public Client() {
-        this.service = new SourcegraphService();
+        this.service = new SourcegraphLookup();
     }
 
     public boolean isAuthorized() {
