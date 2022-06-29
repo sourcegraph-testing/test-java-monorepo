@@ -11,7 +11,7 @@
             <repositories>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/owner_username/package_name</url>
+                    <url>https://maven.pkg.github.com/sourcegraph-testing/*</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
