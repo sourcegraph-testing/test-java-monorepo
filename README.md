@@ -8,3 +8,4 @@ Contains the following modules,
 * serviceregistry
 
 Depends on [test-java-lib](https://github.com/sourcegraph-testing/test-java-lib) to show a dependency on another library.
+Hello World
